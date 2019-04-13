@@ -6,3 +6,4 @@ In the event of press of a button a python script is triggered which establishes
 Then automatically an image is captured using the picamera and image is sent to server using scp.
 The server recives the images and processes the images and stores the label names ima text file.
 Now using gTTS module the text is converted to audio and is sent to raspberry pi.
+The code in its entirety is not uploaded as of now.
