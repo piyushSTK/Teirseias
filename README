@@ -1,0 +1,8 @@
+This project was made for IDP course in IIT Hyderabad. The image detection module and the code was taken from 
+https://towardsdatascience.com/object-detection-with-10-lines-of-code-d6cb4d86f606.   We used the pretrained model
+given in the site and implemented it in raspberry PI 3 B+.
+The project works as communiication between server(laptop) and node(raspberry)
+In the event of press of a button a python script is triggered which establishes ssh connection between rasp and server.
+Then automatically an image is captured using the picamera and image is sent to server using scp.
+The server recives the images and processes the images and stores the label names ima text file.
+Now using gTTS module the text is converted to audio and is sent to raspberry pi.
